@@ -47,8 +47,8 @@ window.addEventListener("load", async () => {
   function update() {
     var windConfig = updateWind(weatherConditions);
     updateTree(windConfig, weatherConditions);
-    // updateGrass(windConfig, weatherConditions);
-    // updateClouds(weatherConditions);
+    updateGrass(windConfig, weatherConditions);
+    updateClouds(weatherConditions);
     weatherConditions.snow.isSnow && updateSnowFall(windConfig);
     weatherConditions.rain.isRain && updateRain(windConfig);
     requestAnimationFrame(update);
