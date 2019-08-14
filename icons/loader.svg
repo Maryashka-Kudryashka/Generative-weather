@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="-5 -5 60 60">
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(25,0)">
+     <animate begin="-1.1" attributeName="opacity" from="1.2" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(37,4) rotate(30)">
+     <animate begin="-1" attributeName="opacity" from="1.2" to="0" dur="1.2s" repeatCount="indefinite"/>    
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(46,13) rotate(60)">
+     <animate begin="-0.9" attributeName="opacity" from="1.2" to="0" dur="1.2s" repeatCount="indefinite"/>    
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(50,25) rotate(90)">
+     <animate begin="-0.8" attributeName="opacity" from="1.2" to="0" dur="1.2s" repeatCount="indefinite"/> 
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(46,37) rotate(120)">
+    <animate begin="-0.7" attributeName="opacity" from="1.2" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(37,46) rotate(150)">
+    <animate begin="-0.6" attributeName="opacity" from="1.2" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(25,50) rotate(180)">
+    <animate begin="-0.5" attributeName="opacity" from="1" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(13,46) rotate(210)">
+    <animate begin="-0.4" attributeName="opacity" from="1" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(4,37) rotate(240)">
+    <animate begin="-0.3" attributeName="opacity" from="1" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(0,25) rotate(270)">
+    <animate begin="-0.2" attributeName="opacity" from="1" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(4,13) rotate(300)">
+    <animate begin="-0.1" attributeName="opacity" from="1" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect rx="10" ry="10" width="10" height="20" fill="#666666" transform="translate(13,4) rotate(330)">
+    <animate begin="0" attributeName="opacity" from="1" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
