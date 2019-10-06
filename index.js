@@ -24,8 +24,8 @@ window.addEventListener("load", async () => {
   weatherConditions.snow.isSnow && generateSnow(weatherConditions);
 
   function init(weatherConditions) {
-    const from = -80;
-    const to = 80;
+    const from = -20;
+    const to = 40;
 
     for (let i = from; i <= to; i++) {
       const windActual = i / 60;
@@ -47,8 +47,8 @@ window.addEventListener("load", async () => {
   function update() {
     var windConfig = updateWind(weatherConditions);
     updateTree(windConfig, weatherConditions);
-    // updateGrass(windConfig, weatherConditions);
-    // updateClouds(weatherConditions);
+    updateGrass(windConfig, weatherConditions);
+    updateClouds(weatherConditions);
     weatherConditions.snow.isSnow && updateSnowFall(windConfig);
     weatherConditions.rain.isRain && updateRain(windConfig);
     requestAnimationFrame(update);

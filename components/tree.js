@@ -216,7 +216,7 @@ function getTreeCanvas(windConfig) {
 
 function getLeavesCanvas(wind, colors) {
   const key = parseInt(wind * 60);
-
+  
   if (!leavesCanvases[key]) {
     let m_canvas = document.createElement("canvas");
     m_canvas.width = canvasTree.width;
