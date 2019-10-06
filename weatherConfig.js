@@ -17,7 +17,7 @@ function valueTransformer(aFrom, aTo, bFrom, bTo, aVal) {
 }
 
 export async function weather() {
-  const weatherApi = false;
+  const weatherApi = true;
   const weatherInfo = await fetchWeather();
   console.log(weatherInfo);
   const weather = weatherInfo.weather[0];
@@ -79,14 +79,14 @@ export async function weather() {
     : {
         wind: 0.5,
         month,
-        weather: "Rain",
+        weather: "Sunny",
         sky: {
           cloudsAmount: 7,
           skyColor: skyColors.cloudy,
           wind: 1.5/4
         },
         rain: {
-          isRain: true,
+          isRain: false,
           precipitationAmount: 500
         },
         tree: {

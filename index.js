@@ -40,7 +40,7 @@ window.addEventListener("load", async () => {
     }
   }
 
-  // init(weatherConditions);
+  init(weatherConditions);
   const loader = document.querySelector("#loader");
   if (loader) loader.style.display = "none";
 
